@@ -17,8 +17,16 @@ export default defineConfig({
     siteTitle: false,
 
     nav: [
-      { text: 'Guides', link: '/guides/' },
-      { text: 'Features', link: '/features/' },
+      {
+        text: 'Guides',
+        items: [],
+      },
+      {
+        text: 'Features',
+        items: [
+          { text: "Zoom Integration", link: "/features/zoom-integration" },
+        ],
+      },
     ],
 
     sidebar: {
